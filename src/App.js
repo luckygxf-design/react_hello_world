@@ -12,6 +12,7 @@ import {
 
 import Home from './Home'
 import About from './About'
+import ClassDemo from './ClassDemo'
 
 // function App() {
 //   return (
@@ -31,11 +32,15 @@ const App=() => {
             <li>
               <Link to="/about">About</Link>
             </li>
+            <li>
+              <Link to="/class-demo">ClassDemo</Link>
+            </li>
           </ul>
         </nav>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/class-demo" element={<ClassDemo name='guandashuai'/>}/>
         </Routes>
       </div>
     </Router>
