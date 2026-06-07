@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 // import FunDemo from './FunDemo'
 // import BlogInf from './BlogInf'
 // import Counter from './Counter';
-import HelloMessage from './HelloMessage'
+// import HelloMessage from './HelloMessage'
+import ActionLinkDemo from './ActionLink'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HelloMessage name='guandashuai'/>
+    <ActionLinkDemo />
   </React.StrictMode>
 );
 
