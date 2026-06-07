@@ -5,12 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import FunDemo from './FunDemo'
 // import BlogInf from './BlogInf'
-import Counter from './Counter';
+// import Counter from './Counter';
+import HelloMessage from './HelloMessage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Counter />
+    <HelloMessage name='guandashuai'/>
   </React.StrictMode>
 );
 

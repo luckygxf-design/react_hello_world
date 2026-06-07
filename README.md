@@ -4,3 +4,5 @@
 npm start
 ```
 1. react 路由
+2. state demo
+3. props demo
