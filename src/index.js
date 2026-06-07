@@ -7,12 +7,13 @@ import reportWebVitals from './reportWebVitals';
 // import BlogInf from './BlogInf'
 // import Counter from './Counter';
 // import HelloMessage from './HelloMessage'
-import ActionLinkDemo from './ActionLink'
+// import ActionLinkDemo from './ActionLink'
+import Greeting from './Greetings';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ActionLinkDemo />
+    <Greeting isLoggedIn={true} />
   </React.StrictMode>
 );
 
