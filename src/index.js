@@ -8,12 +8,14 @@ import reportWebVitals from './reportWebVitals';
 // import Counter from './Counter';
 // import HelloMessage from './HelloMessage'
 // import ActionLinkDemo from './ActionLink'
-import Greeting from './Greetings';
+// import Greeting from './Greetings';
+// import LoadData from './LoadData';
+import UseEffectDemo from './UseEffectDemo'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Greeting isLoggedIn={true} />
+    <UseEffectDemo />
   </React.StrictMode>
 );
 
