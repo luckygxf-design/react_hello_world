@@ -10,13 +10,14 @@ import reportWebVitals from './reportWebVitals';
 // import ActionLinkDemo from './ActionLink'
 // import Greeting from './Greetings';
 // import LoadData from './LoadData';
-import UseEffectDemo from './UseEffectDemo'
+// import UseEffectDemo from './UseEffectDemo'
+import Clock from './Clock';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <UseEffectDemo />
-  </React.StrictMode>
+   <React.StrictMode>
+    <Clock />
+   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
