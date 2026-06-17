@@ -11,12 +11,13 @@ import reportWebVitals from './reportWebVitals';
 // import Greeting from './Greetings';
 // import LoadData from './LoadData';
 // import UseEffectDemo from './UseEffectDemo'
-import Clock from './Clock';
+// import Clock from './Clock';
+import MemoDemo from './MemoDemo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <React.StrictMode>
-    <Clock />
+    <MemoDemo />
    </React.StrictMode>
 );
 
