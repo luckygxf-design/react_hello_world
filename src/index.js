@@ -12,12 +12,13 @@ import reportWebVitals from './reportWebVitals';
 // import LoadData from './LoadData';
 // import UseEffectDemo from './UseEffectDemo'
 // import Clock from './Clock';
-import MemoDemo from './MemoDemo';
+// import MemoDemo from './MemoDemo';
+import AntdToolTip from './AntdToolTip';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    <React.StrictMode>
-    <MemoDemo />
+    <AntdToolTip />
    </React.StrictMode>
 );
 
